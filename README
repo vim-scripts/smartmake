@@ -1,0 +1,3 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=832
+
+This plugin provides a smart version of the :make command: Before running the compiler, it scans the current and all parent directories to figure out which compiler to use. It provides a command called "SmartMake". When neither "no_plugin_maps" nor "no_smartmake_maps" are set F7 will be bound to that command. Currently supported compile flavours: make, ant and nant.
